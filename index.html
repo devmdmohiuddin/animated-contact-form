@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+<body>
+  
+    <form name="myform" onsubmit="return validateForm()">
+    <ul>
+        <li class="title">Who Are You?</li>
+        <li class="fields">
+            <label>*First Name:</label><br>
+            <input type="text" id="first_name" class="red"><br>
+            <label>Middle Name:</label><br>
+            <input type="text" id="middle_name"><br>
+            <label>Last Name:</label><br>
+            <input type="text" id="last_name"><br>
+            <label>*Email:</label><br>
+            <input type="email" class="red" id="email"><br>
+        </li>
+        <li class="title">Where Are You?</li>
+        <li class="fields">
+            <label>City:</label><br>
+            <input type="text" id="city"><br>
+            <label>*State:</label><br>
+            <input type="text" id="state" class="red"><br>
+            <label>Company:</label><br>
+            <input type="text" id="company"><br>
+        </li>
+        <li class="title">What Do You Do?</li>
+        <li class="fields">
+            <label>*Ocupation:</label><br>
+            <input type="text" id="ocupation" class="red"><br>
+            <label></label>Company:</label><br>
+            <input type="text" id="company"><br>
+            <label>Company Location:</label><br>
+            <input type="text" id="location"><br>
+        </li>
+    </ul>
+     <input type="submit" value="Submit Form">   
+    </form>
+    
+    
+    <script src="js/jQuery.js"></script>
+    <script src="js/main-jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
